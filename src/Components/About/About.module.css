@@ -1,0 +1,17 @@
+.line {
+    width: 130px;
+    height: 5px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.h2About {
+    font-size: 60px;
+    padding: 15px 0 10px 0;
+    font-weight: bold;
+    color: white;
+}
+
+.sectionAbout {
+    background-color: #1abc9c;
+}

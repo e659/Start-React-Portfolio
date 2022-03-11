@@ -1,0 +1,144 @@
+.line {
+    width: 130px;
+    height: 5px;
+    border-radius: 50px;
+    background-color: black;
+}
+
+.h2APortfo {
+    font-size: 50px;
+    padding: 10px 0 10px 0;
+    font-weight: bold;
+    color: black;
+}
+
+.profileImg {
+    border-radius: 10px;
+}
+
+
+/* .layer {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(26, 188, 156, 0.9);
+    display: none;
+    transition: all .5s;
+}
+
+.profImg:hover .layer {
+    display: block;
+    cursor: pointer;
+} */
+
+.profImg {
+    position: relative;
+}
+
+.bodyImg {
+    border-radius: 10px;
+    width: 700px;
+    height: 500px;
+}
+
+.popUpTitleH2 {
+    color: #2c3e50;
+    margin-left: 20px;
+    font-size: 50px;
+}
+
+.modalDialog {
+    max-width: 1200px !important;
+    height: 950px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+}
+
+.modalDialogIcone {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: #1abc9c;
+    transition: all .3s;
+}
+
+.modalDialogIcone:hover {
+    cursor: pointer !important;
+}
+
+.modalBodyP {
+    padding: 50px 50px 10px;
+}
+
+.modalFooterButton {
+    background-color: #1abc9c !important;
+    color: white !important;
+    padding: 10px 30px 10px !important;
+    font-size: 20px !important;
+    transition: all .3s;
+}
+
+.modalFooterButton :hover {
+    background-color: #309c87 !important;
+    cursor: pointer !important;
+}
+
+
+/* media query */
+
+
+/* small screen */
+
+@media screen and (max-width:568px) {
+    .bodyImg {
+        width: 300px;
+        height: 300px;
+    }
+    .modalDialog {
+        max-width: 400px !important;
+        height: 930px;
+        margin: auto !important;
+    }
+    /* .popUpTitleH2 {
+        font-size: 20px;
+    } */
+}
+
+@media screen and (min-width:569px) and (max-width:768px) {
+    .bodyImg {
+        width: 450px;
+        height: 400px;
+    }
+    .modalDialog {
+        max-width: 550px !important;
+        height: 930px;
+        margin: auto !important;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:992px) {
+    .modalDialog {
+        max-width: 650px !important;
+        height: 930px;
+        margin: auto !important;
+    }
+    .bodyImg {
+        width: 450px;
+        height: 400px;
+    }
+}
+
+@media screen and (min-width:993px) {
+    .modalDialog {
+        max-width: 950px !important;
+        height: 1100px;
+        margin: auto !important;
+    }
+    .bodyImg {
+        width: 750px;
+        height: 650px;
+    }
+}

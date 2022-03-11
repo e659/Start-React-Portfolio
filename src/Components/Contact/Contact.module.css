@@ -1,0 +1,57 @@
+.line {
+    width: 130px;
+    height: 5px;
+    border-radius: 50px;
+    background-color: black;
+}
+
+.h2AContact {
+    font-size: 50px;
+    padding: 10px 0 10px 0;
+    font-weight: bold;
+    color: black;
+}
+
+.input {
+    height: 70px !important;
+    border: none !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid rgb(187, 184, 184, .5) !important;
+    width: 80% !important;
+    margin-left: 20% !important;
+    font-size: 20px !important;
+}
+
+.signInBtn {
+    color: #fff !important;
+    background-color: #1abc9c !important;
+    border-color: #1abc9c !important;
+    margin-left: 18%;
+    padding: 20px 25px !important;
+    font-size: 20px !important;
+    transition: all .5s;
+}
+
+.signInBtn:hover {
+    background-color: #309c87 !important;
+}
+
+
+/* media */
+
+@media screen and (max-width:568px) {
+    .input {
+        margin-left: 10% !important;
+    }
+    .signInBtn {
+        padding: 10px 15px !important;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (min-width:569px) and (max-width:768px) {
+    .signInBtn {
+        padding: 10px 15px !important;
+        margin-left: 17%;
+    }
+}
