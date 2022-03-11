@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.642c3225.css",
+    "main.js": "/static/js/main.e1de8823.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/cabin.png": "/static/media/cabin.4417330275f78faa31c3.png",
+    "static/media/circus.png": "/static/media/circus.494a4a914b5471b41f3e.png",
+    "static/media/game.png": "/static/media/game.a940b57aa7bab2eacc52.png",
+    "static/media/submarine.png": "/static/media/submarine.48c9704ca7f8ce901038.png",
+    "static/media/safe.png": "/static/media/safe.01792c0bdc342bf4bf9c.png",
+    "static/media/cake.png": "/static/media/cake.6554473016d32b343f02.png",
+    "static/media/avatar.svg": "/static/media/avatar.31ec77cdc340bbed1daf078424376a35.svg",
+    "index.html": "/index.html",
+    "main.642c3225.css.map": "/static/css/main.642c3225.css.map",
+    "main.e1de8823.js.map": "/static/js/main.e1de8823.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.642c3225.css",
+    "static/js/main.e1de8823.js"
+  ]
+}
